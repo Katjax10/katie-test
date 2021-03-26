@@ -1,0 +1,26 @@
+.topHeader {
+  margin: 15px;
+  .topWrapper {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 20px;
+    justify-content: space-between;
+    max-width: 1280px;
+    .searchInput {
+      padding-right: 16px;
+    }
+    .dropdownWrapper {
+      align-self: flex-end;
+      .languageDropdown {
+        min-width: 100px;
+      }
+      .clearFilter {
+        display: inline-flex;
+        &:hover {
+        cursor: pointer;
+          color: dodgerblue;
+        }
+      }
+    }
+  }
+}

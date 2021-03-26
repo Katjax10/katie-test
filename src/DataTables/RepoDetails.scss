@@ -1,0 +1,17 @@
+.detailsWrapper {
+  margin: 20px;
+  max-width: 1280px;
+  .header {
+    display: flex;
+    flex-direction: row;
+    .backButton{
+      margin-bottom: 15px;
+    }
+  }
+  .repoName {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 24px;
+  }
+
+}
