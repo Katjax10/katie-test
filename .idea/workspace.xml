@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87169f70-8392-4875-a203-0c14724036ce" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataTables/RepoDetails.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataTables/RepoDetails.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataTables/GitTable.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataTables/GitTable.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Home/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Home/Home.tsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,18 +44,18 @@
           <entry key="CSS" value="59" />
           <entry key="Markdown" value="1032" />
           <entry key="SCSS" value="1146" />
-          <entry key="TypeScript JSX" value="19678" />
+          <entry key="TypeScript JSX" value="20324" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Home/Home.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="32" column="14" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
+            <state relative-caret-position="255">
+              <caret line="64" column="47" selection-start-line="64" selection-start-column="47" selection-end-line="64" selection-end-column="47" />
               <folding>
                 <element signature="e#0#43#0" expanded="true" />
               </folding>
@@ -126,11 +125,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/DataTables/GitTable.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+            <state relative-caret-position="232">
+              <caret line="40" column="87" selection-start-line="40" selection-start-column="87" selection-end-line="40" selection-end-column="87" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
               </folding>
@@ -155,9 +154,10 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>red</find>
-      <find>0</find>
       <find>No re</find>
       <find>debugg</find>
+      <find>console.</find>
+      <find>0</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/src</dir>
@@ -190,10 +190,10 @@
         <option value="$PROJECT_DIR$/src/CommonComponents/Error.scss" />
         <option value="$PROJECT_DIR$/src/CommonComponents/ErorrComponent.tsx" />
         <option value="$PROJECT_DIR$/src/index.tsx" />
-        <option value="$PROJECT_DIR$/src/DataTables/GitTable.tsx" />
         <option value="$PROJECT_DIR$/src/DataTables/CommonDataTable.tsx" />
         <option value="$PROJECT_DIR$/src/DataTables/CommonTable.scss" />
         <option value="$PROJECT_DIR$/src/Home/Home.tsx" />
+        <option value="$PROJECT_DIR$/src/DataTables/GitTable.tsx" />
       </list>
     </option>
   </component>
@@ -311,12 +311,12 @@
       <workItem from="1616615648408" duration="20832000" />
       <workItem from="1616691475872" duration="289000" />
       <workItem from="1616691859432" duration="32260000" />
-      <workItem from="1616867717783" duration="440000" />
+      <workItem from="1616867717783" duration="2938000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57154000" />
+    <option name="totallyTimeSpent" value="59652000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="158" y="59" width="1282" height="754" extended-state="0" />
@@ -464,13 +464,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DataTables/CommonTable.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/DataTables/CommonDataTable.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="799">
@@ -481,22 +474,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DataTables/GitTable.tsx">
+    <entry file="file://$PROJECT_DIR$/src/Home/Home.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+        <state relative-caret-position="255">
+          <caret line="64" column="47" selection-start-line="64" selection-start-column="47" selection-end-line="64" selection-end-column="47" />
           <folding>
-            <element signature="e#0#21#0" expanded="true" />
+            <element signature="e#0#43#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Home/Home.tsx">
+    <entry file="file://$PROJECT_DIR$/src/DataTables/CommonTable.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="32" column="14" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
+        <state relative-caret-position="68">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DataTables/GitTable.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="40" column="87" selection-start-line="40" selection-start-column="87" selection-end-line="40" selection-end-column="87" />
           <folding>
-            <element signature="e#0#43#0" expanded="true" />
+            <element signature="e#0#21#0" expanded="true" />
           </folding>
         </state>
       </provider>

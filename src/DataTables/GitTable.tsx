@@ -38,7 +38,7 @@ function GitTable(props: TableProps) {
     {
       name: 'language',
       displayName: 'Language',
-      item: props.data.map(n=> (<div>{n.language}</div>))
+      item: props.data.map(n=> (<div>{n.language !== null ? n.language : 'Not Specified'}</div>))
     },
   ]
 

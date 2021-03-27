@@ -24,13 +24,16 @@ function Home() {
   useEffect(() => {
     if (search) {
 
-      // don't run fetch on every change of search, wait until done typing
+      // to limit calls to api, don't run fetch on every change of search, wait until done typing
       setTimeout(() => {
         fetch(
           `https://api.github.com/search/repositories?q='${search}'
       ${sortType === 'stars' ? '&sort=stars' : ''}${`&order=${sortDirection}`}`,
           {
             method: 'GET',
+            headers: {
+              Authorization: 'token e715a239c3f2a960427d678ad7c3743257c1831c'
+            },
           },
         )
         .then(res=> res.json())
@@ -38,10 +41,11 @@ function Home() {
           setResults(response.items);
         })
 
-        // TODO: getting calls from github api as an authenticated user cause rate limit errors/403 errors.
-        // Note: long search strings will cause this error to trigger
-        .catch(error => console.log('this is erroring', error));
-      }, 300)
+        // TODO: getting calls from github api using my personal token causes rate limit errors/403 errors
+        // since I am not an Enterprise user.
+        // Note: long search strings/ lots of calls to api will cause this error to trigger
+        .catch(error => console.log(error));
+      }, 200)
     }
   }, [search, sortType, sortDirection])
 
@@ -59,9 +63,8 @@ function Home() {
   // get Languages from response
 
   const getLanguages = results?.map((lang) => {
-    return lang.language
+    return lang.language !== null ? lang.language : 'Not Specified'
   })
-
 
   //filter duplicates from list
   const filterDups = getLanguages?.filter((d,i) => {
@@ -70,6 +73,9 @@ function Home() {
 
   //construct dynamic dropdown options based on results
   const options = filterDups?.map((i, index) => {
+    if(typeof i === 'object') {
+     return delete filterDups[i]
+    }
     return {
       key: index,
       value: i,
