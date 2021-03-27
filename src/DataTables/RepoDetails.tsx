@@ -11,7 +11,6 @@ function RepoDetails(props) {
       name: 'property',
       displayName: 'Property',
       item: getEntries.map((entry) => {
-        console.log('entruep', entry[1])
         return(
           <div>
             <strong>{entry[0]}&nbsp;</strong>
@@ -23,7 +22,6 @@ function RepoDetails(props) {
       name: 'details',
       displayName: 'Details',
       item: getEntries.map((entry) => {
-        console.log('entruep', entry[1])
         return(
           <div>
             {JSON.stringify(entry[1])}
