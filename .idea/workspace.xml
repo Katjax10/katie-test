@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87169f70-8392-4875-a203-0c14724036ce" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Home/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Home/Home.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,7 +26,7 @@
         <counts>
           <entry key="CSS" value="3" />
           <entry key="JSON" value="1" />
-          <entry key="Markdown" value="1" />
+          <entry key="Markdown" value="2" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="SCSS" value="4" />
           <entry key="SVG" value="1" />
@@ -42,8 +43,8 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="59" />
-          <entry key="Markdown" value="1032" />
-          <entry key="PLAIN_TEXT" value="11" />
+          <entry key="Markdown" value="1329" />
+          <entry key="PLAIN_TEXT" value="14" />
           <entry key="SCSS" value="1146" />
           <entry key="TypeScript JSX" value="20850" />
         </counts>
@@ -67,15 +68,6 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/index.tsx">
           <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Home/Home.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-            </state>
-          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -129,7 +121,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="386">
@@ -138,7 +130,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DataTables/CommonDataTable.tsx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-282">
@@ -146,6 +138,18 @@
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="-47">
+                <caret line="3" column="24" lean-forward="true" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -184,7 +188,6 @@
         <option value="$PROJECT_DIR$/src/RepoDetails/RepoDetails.scss" />
         <option value="$PROJECT_DIR$/src/CommonFile/CommonDataTable.tsx" />
         <option value="$PROJECT_DIR$/src/App.scss" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/DataTables/RepoDetails.tsx" />
         <option value="$PROJECT_DIR$/src/Home/Home.scss" />
         <option value="$PROJECT_DIR$/src/DataTables/RepoDetails.scss" />
@@ -194,8 +197,9 @@
         <option value="$PROJECT_DIR$/src/DataTables/CommonDataTable.tsx" />
         <option value="$PROJECT_DIR$/src/DataTables/CommonTable.scss" />
         <option value="$PROJECT_DIR$/src/DataTables/GitTable.tsx" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/Home/Home.tsx" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -313,12 +317,12 @@
       <workItem from="1616615648408" duration="20832000" />
       <workItem from="1616691475872" duration="289000" />
       <workItem from="1616691859432" duration="32260000" />
-      <workItem from="1616867717783" duration="3682000" />
+      <workItem from="1616867717783" duration="4229000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60396000" />
+    <option name="totallyTimeSpent" value="60943000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="158" y="59" width="1282" height="754" extended-state="0" />
@@ -409,16 +413,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="320">
-            <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/DataTables/RepoDetails.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -464,13 +458,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="24" column="2" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.tsx">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -508,6 +495,23 @@
           <folding>
             <element signature="e#0#21#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-47">
+            <caret line="3" column="24" lean-forward="true" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="24" column="2" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
         </state>
       </provider>
     </entry>
