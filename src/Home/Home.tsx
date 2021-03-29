@@ -21,6 +21,11 @@ function Home() {
   const [filterValue, setFilterValue] = useState<any>('')
   const [filteredResults, setFilteredResults] = useState([])
 
+  // The api has rate limits for unauthenticated or non enterprise users
+  // feel free to add your own entreprise token if you have one, otherwise, lots of calls to the api
+  // will return a 403 error when the rate limit is hit
+  // const token = 'enterpriseUserToken'
+
   useEffect(() => {
     if (search) {
 
@@ -31,9 +36,9 @@ function Home() {
       ${sortType === 'stars' ? '&sort=stars' : ''}${`&order=${sortDirection}`}`,
           {
             method: 'GET',
-            headers: {
-              Authorization: 'token e715a239c3f2a960427d678ad7c3743257c1831c'
-            },
+            // headers: {
+            //   Authorization: `token ${token}`
+            // },
           },
         )
         .then(res=> res.json())
@@ -41,9 +46,8 @@ function Home() {
           setResults(response.items);
         })
 
-        // TODO: getting calls from github api using my personal token causes rate limit errors/403 errors
-        // since I am not an Enterprise user.
-        // Note: long search strings/ lots of calls to api will cause this error to trigger
+        // Note: long search strings/ lots of calls to api will cause 403 error to trigger
+        //
         .catch(error => console.log(error));
       }, 200)
     }
